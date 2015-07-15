@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Binary Academy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <a href="#" class="header-logo">Microsoft home page</a>
+    <img src="img/menu.png" alt="" id="menu">
+    <nav id="header-nav">    	
+    	<a href="#">Home</a>
+    	<a href="#">Products</a>
+    	<a href="#">Price</a>
+    	<a href="#">job</a>
+    	<a href="#">About</a>   	
+    </nav>
+</header>
+<aside class="sidebar">
+	<h2>Microsoft Office</h2>
+	<div class="pic"><img src="img/pic.png" alt="pictures"></div>
+	<div class="products">Word</div>
+	<div class="products">Exel</div>
+	<div class="products">Power Point</div>
+	<div class="products">Access</div>
+	<div class="products">Publisher</div>
+</aside>
+<div class="main-content">
+    <article>
+        <h1>Something random title</h1>
+        <div class="content-banner">
+            <img src="img/content-banner.png" alt="banner">
+        </div>
+        <p>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa enim a dolorem, consectetur deserunt,     accusamus, doloribus repudiandae soluta quod beatae natus alias nostrum tenetur minima. Modi doloremque, explicabo  distinctio non!</span>
+            <span>Ratione maxime eum voluptatum ea at repellendus, accusantium rerum, voluptates aut officia architecto quas    omnis consequatur, provident porro. Pariatur fugit, nulla reprehenderit sed quam facere assumenda! Iusto, iure     doloribus similique.</span>
+            <span>Tenetur cum alias iste. Tenetur debitis, accusamus eum voluptatibus molestias necessitatibus sequi! Delectus  commodi praesentium enim voluptatem, voluptate, aut iste est, provident a veniam ducimus in voluptatum perspiciatis  sunt alias.</span>
+        </p>
+        <div class="image-container">
+            <img src="img/1_thumb.png" alt="" class="thumb">
+            <img src="img/3_thumb.png" alt="" class="thumb">
+            <img src="img/2_thumb.png" alt="" class="thumb">
+        </div>
+        <p>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt doloribus earum aperiam nostrum, nulla sunt. Distinctio, fuga optio iste. Quis tempora necessitatibus saepe id, fugiat soluta, consectetur qui. Molestias, cumque!</span>
+            <span>Vitae exercitationem nihil fugiat sapiente dolorem! Mollitia excepturi recusandae sequi quod, illo quia nostrum, est aut eligendi rerum sit eius rem. Fugit facere nobis nesciunt quos dolores, iure quo eum.</span>
+        </p>
+        <img src="img/img.png" alt="" class="widthImg">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis sapiente, quisquam similique sit, magnam explicabo voluptatem ea praesentium quibusdam itaque vitae aliquid voluptatum. Veniam sapiente obcaecati cum, tenetur, quasi quam!</p>
+        <a href="#"><img src="img/social.png" alt="" class="social"></a>
+        <div class="read-more">
+            <h3>read more</h3>
+            <figure class="read-more-element">
+                <img src="img/evolution.png" alt="">
+                <a href="#"><figcaption>Microsoft evolution</figcaption></a>
+            </figure>
+            <figure class="read-more-element">
+                <img src="img/more.png" alt="">
+                <a href="#"><figcaption>Bla Bla Bla</figcaption></a>
+            </figure>
+        </div>
+    </article>
+</div>
+<footer>
+    <span>&copy; for Binary Academy</span> 
+</footer>
+<script type="text/javascript">
+            var hamMenu = document.getElementById("menu")
+                                     .addEventListener("click", function () {respons(menu);});
+            var menu = document.getElementById("header-nav");        
+            function respons(item) {
+                if (item.style.display == "none") {
+                    item.style.display = "block";
+                } else {
+                    item.style.display = "none";
+                }
+            }
+</script>
+</body>
+</html>
